@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel vlog draft 1</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  </head>
+
+  <body>
+
+    <!-- hero section + navbar -->
+    
+    <section class="home">
+        <div class="home-box">
+            <nav class="header">
+                <div class="logo-bars">
+                    <div class="bar">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <!-- <a href="#"><img class="logo" src="images/logo.png" alt="logo"></a> -->
+                    <h3 id="nav-text">Jim Harper</h3>
+                </div>
+                <div class="menu">
+                    <div class="close">
+                        <i class="fa fa-close"></i>
+                    </div>
+                    <!-- <ul class="sidebar">
+                      <li onClick=hideSidebar() ><a href="#"><span class="material-symbols-outlined close-icon">
+                        close
+                        </span>
+                      </li> -->
+                      <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="blogs.html">Posts</a></li>
+                      <li><a href="gallery.html">Gallery</a></li>
+                      <li><a href="#">Contact</a></li>
+                      <li><a href="about.html">About Me</a></li>
+                    </ul>
+                  <!-- </ul> -->
+                    <!-- <ul>
+                        <li class="hideOnMobile"><a href="blogs.html">Posts</a></li>
+                        <li class="hideOnMobile"><a href="gallery.html">Gallery</a></li>
+                        <li class="hideOnMobile"><a href="#">Contact</a></li>
+                        <li class="hideOnMobile"><a href="about.html">About Me</a></li>
+                        <li class="menu-btn" onClick=showSidebar()><a href="#"><span  class="material-symbols-outlined menu-icon">
+                          menu
+                          </span>
+                        </a></li>
+                    </ul> -->
+                </div>
+            </nav>
+
+            <section id="hero">
+                <div class="info">
+                    <h2>Hi Guy'z</h2>
+                    <br><br>
+                    <h1>I'm a <span class="multiText"></span></h1>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- travel image -->
+    <h3 class="text-center section-subheading">Destinations travelled so far</h3>
+    <!-- <div class="travel-img">
+      <img style="width: 950px; height: 300px;" src="images/travel.png" alt="">
+    </div> -->
+    <!-- swipe slider -->
+
+    <section id="trending">
+      <div class="container">
+        <!-- <h3 class="text-center section-subheading">Destinations travelled so far</h3>
+        <br>
+        <h1 class="text-center section-heading">Trending food</h1> -->
+      </div>
+      <div class="container">
+        <div class="swiper trending-slider">
+          <div class="swiper-wrapper">
+            <!-- Slide-start -->
+            <div class="swiper-slide trending-slide">
+              <div class="trending-slide-img">
+                <img src="https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Tranding">
+              </div>
+              <div class="trending-slide-content">
+                <!-- <h1 class="food-price">$20</h1> -->
+                <div class="trending-slide-content-bottom">
+                  <h2 class="food-name">
+                    Los Angeles
+                  </h2>
+                  <!-- <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3> -->
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide trending-slide">
+              <div class="trending-slide-img">
+                <img src="https://images.pexels.com/photos/1633525/pexels-photo-1633525.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Tranding">
+              </div>
+              <div class="trending-slide-content">
+                <!-- <h1 class="food-price">$20</h1> -->
+                <div class="trending-slide-content-bottom">
+                  <h2 class="food-name">
+                    Australia
+                  </h2>
+                  <!-- <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3> -->
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide trending-slide">
+              <div class="trending-slide-img">
+                <img src="https://images.pexels.com/photos/1639556/pexels-photo-1639556.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Tranding">
+              </div>
+              <div class="trending-slide-content">
+                <!-- <h1 class="food-price">$40</h1> -->
+                <div class="trending-slide-content-bottom">
+                  <h2 class="food-name">
+                    Tokyo
+                  </h2>
+                  <!-- <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3> -->
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide trending-slide">
+              <div class="trending-slide-img">
+                <img src="https://images.pexels.com/photos/1400172/pexels-photo-1400172.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Tranding">
+              </div>
+              <div class="trending-slide-content">
+                <!-- <h1 class="food-price">$15</h1> -->
+                <div class="trending-slide-content-bottom">
+                  <h2 class="food-name">
+                    Las Vegas
+                  </h2>
+                  <!-- <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3> -->
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide trending-slide">
+              <div class="trending-slide-img">
+                <img src="https://images.pexels.com/photos/3338681/pexels-photo-3338681.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Tranding">
+              </div>
+              <div class="trending-slide-content">
+                <!-- <h1 class="food-price">$15</h1> -->
+                <div class="trending-slide-content-bottom">
+                  <h2 class="food-name">
+                    New York
+                  </h2>
+                  <!-- <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3> -->
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide trending-slide">
+              <div class="trending-slide-img">
+                <img src="https://images.pexels.com/photos/1854652/pexels-photo-1854652.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Tranding">
+              </div>
+              <div class="trending-slide-content">
+                <!-- <h1 class="food-price">$20</h1> -->
+                <div class="trending-slide-content-bottom">
+                  <h2 class="food-name">
+                    London
+                  </h2>
+                  <!-- <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3> -->
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide trending-slide">
+              <div class="trending-slide-img">
+                <img src="https://images.pexels.com/photos/3434523/pexels-photo-3434523.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Tranding">
+              </div>
+              <div class="trending-slide-content">
+                <!-- <h1 class="food-price">$8</h1> -->
+                <div class="trending-slide-content-bottom">
+                  <h2 class="food-name">
+                    Singapore
+                  </h2>
+                  <!-- <h3 class="food-rating">
+                    <span>4.5</span>
+                    <div class="rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3> -->
+                </div>
+              </div>
+            </div>
+            <!-- Slide-end -->
+          </div>
+
+          <div class="trending-slider-control">
+            <div class="swiper-button-prev slider-arrow">
+              <ion-icon name="arrow-back-outline"></ion-icon>
+            </div>
+            <div class="swiper-button-next slider-arrow">
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- big features section -->
+    <section class="big-features-section">
+      <div class="container2 flex big-feature-container">
+          <div class="feature-img">
+              <img src="https://images.pexels.com/photos/1569002/pexels-photo-1569002.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+          </div>
+          <div class="features-desc flex">
+              <h4>Effortless designs</h4>
+              <h3>Design professionals</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit consequatur rerum quod accusantium reiciendis eos.</p>
+          </div>
+      </div>
+  </section>
+  <section class="big-features-section">
+      <div class="container2 flex big-feature-container sec-big-feature">
+          <div class="features-desc flex">
+              <h4>Effortless designs</h4>
+              <h3>Design professionals</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit consequatur rerum quod accusantium reiciendis eos.</p>
+          </div>
+          <div class="feature-img">
+              <img class="sec-big-feacture-img" src="https://images.pexels.com/photos/1569002/pexels-photo-1569002.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+          </div>
+      </div>
+  </section>
+  <section class="big-features-section">
+      <div class="container2 flex big-feature-container">
+          <div class="feature-img">
+              <img src="https://images.pexels.com/photos/1569002/pexels-photo-1569002.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+          </div>
+          <div class="features-desc flex">
+              <h4>Effortless designs</h4>
+              <h3>Design professionals</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit consequatur rerum quod accusantium reiciendis eos.</p>
+          </div>
+      </div>
+  </section>
+
+<!-- Blogs section -->
+
+<section id="blog">
+  <div class="blog-heading">
+      <span>My Recent Posts</span>
+      <!-- <h3>My Blogs</h3> -->
+  </div>
+
+  <div class="blog-container">
+      <div id="blog-box-1" class="blog-box">
+          <div class="blog-img">
+              <img src="https://images.pexels.com/photos/23452742/pexels-photo-23452742/free-photo-of-the-leaning-tower-of-pisa-italy.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load" alt="">
+          </div>
+          <div class="blog-text">
+              <span>25 December 2023 / Italy</span>
+              <a href="blog posts/blog1.html" class="blog-title">The Leaning Tower of Pisa</a>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores odit quo quibusdam debitis veritatis maxime?</p>
+              <a href="blog posts/blog1.html">Read More</a>
+          </div>
+      </div>
+
+      <div id="blog-box-2" class="blog-box">
+          <div class="blog-img">
+              <img src="https://images.pexels.com/photos/23452742/pexels-photo-23452742/free-photo-of-the-leaning-tower-of-pisa-italy.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load" alt="">
+          </div>
+          <div class="blog-text">
+              <span>25 December 2023 / Italy</span>
+              <a href="blog posts/blog2.html" class="blog-title">The Leaning Tower of Pisa</a>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores odit quo quibusdam debitis veritatis maxime?</p>
+              <a href="blog posts/blog2.html">Read More</a>
+          </div>
+      </div>
+
+      <div id="blog-box-3" class="blog-box">
+          <div class="blog-img">
+              <img src="https://images.pexels.com/photos/23452742/pexels-photo-23452742/free-photo-of-the-leaning-tower-of-pisa-italy.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load" alt="">
+          </div>
+          <div class="blog-text">
+              <span>25 December 2023 / Italy</span>
+              <a href="blog posts/blog3.html" class="blog-title">The Leaning Tower of Pisa</a>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores odit quo quibusdam debitis veritatis maxime?</p>
+              <a href="blog posts/blog3.html">Read More</a>
+          </div>
+      </div>
+      
+
+  </div>
+</section>
+
+  <!-- cta section -->
+
+    <section class="cta-section">
+        <div class="container flex cta-section-container">
+            <h2>Explore The World :)</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, veritatis.</p>
+            
+        </div>
+    </section>
+
+<!-- footer -->
+
+<!-- <footer>
+  <div class="container flex footer-container">
+      <a href="#" class="company-logo">
+          <img src="https://cutewallpaper.org/24/your-logo-here-png/your-logo-here-circle-hd-png-download-vhv.png" alt="company logo">
+      </a>
+      <div class="link-column flex">
+          <h4>Product</h4>
+          <a href="#" class="hover-link">Overview</a>
+          <a href="#" class="hover-link">Pricing</a>
+          <a href="#" class="hover-link">Designers Hub</a>
+          <a href="#" class="hover-link">Customers page</a>
+          <a href="#" class="hover-link">Status page</a>
+      </div>
+      <div class="link-column flex">
+          <h4>Methodology</h4>
+          <a href="#" class="hover-link">Overview</a>
+          <a href="#" class="hover-link">Pricing</a>
+          <a href="#" class="hover-link">Designers Hub</a>
+          <a href="#" class="hover-link">Customers page</a>
+          <a href="#" class="hover-link">Status page</a>
+      </div>
+      <div class="link-column flex">
+          <h4>Resources</h4>
+          <a href="#" class="hover-link">Overview</a>
+          <a href="#" class="hover-link">Pricing</a>
+          <a href="#" class="hover-link">Designers Hub</a>
+          <a href="#" class="hover-link">Customers page</a>
+          <a href="#" class="hover-link">Status page</a>
+      </div>
+  </div>
+</footer> -->
+
+<!-- sub-footer -->
+
+<div class="sub-footer">
+  <div class="conatiner flex sub-footer-container">
+      <a href="#" class="hover-link">Made by - Er.Harsh Nagar</a>
+      <a href="#" class="hover-link">README.md</a>
+      <a href="#" class="hover-link">Github</a>
+      <a href="#" class="hover-link"><img class="btn" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png" alt="Facebook icon"></a>
+      <a href="#" class="hover-link"><img class="btn" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="Instagram icon"></a>
+  </div>
+</div>
+  
+<!-- hero typo -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<script>
+    var typingEffect = new Typed(".multiText", {
+        strings : ["Traveller", "Vlogger", "Editor"],
+        loop : true,
+        typeSpeed : 70,
+        backSpeed : 60,
+        backDelay : 1000
+    })
+</script>
+
+<!-- sidebar menu -->
+<script>
+  function showSidebar(){
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'flex';
+  }
+  function hideSidebar(){
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'none';
+  }
+</script>
+
+<!-- swipe slider -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+
+</html>
